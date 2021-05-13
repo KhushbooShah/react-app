@@ -9,7 +9,7 @@ import Backdrop from "./Backdrop";
 
 //(can be any name but standard practice is to use props)
 //props --> js object containing key value pair of properties passed in the custom object
-//i.e to accept custom dynamic content from where it is rendered.
+//i.e to accept dynamic content from where it is rendered.
 function Todo(props) {
   //React hook. Always return the array with two elements.
   //You can set initial value of the state and it can be accessed using the first element of the array
