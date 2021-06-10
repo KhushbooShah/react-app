@@ -17,6 +17,8 @@ function Todo(props) {
   //You cannot change the state value by reassinging the first element of the array
   const [modalIsOpen, setModelIsOpen] = useState(false);
 
+  //whenever you call setModelIsOpen (i.e the function used to change the state), react will re-execute the component to which that state belongs
+  //and re-evaluate it. It also updates what rendered on the screen
   function deleteHandler() {
     setModelIsOpen(true);
   }
